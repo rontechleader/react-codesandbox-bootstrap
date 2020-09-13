@@ -19,14 +19,14 @@ export default function App() {
       <Button variant="light">Light</Button>{" "}
       <Button variant="dark">Dark</Button> <Button variant="link">Link</Button>
       <hr />
-      <Button variant="outline-primary">Primary</Button>{" "}
-      <Button variant="outline-secondary">Secondary</Button>{" "}
-      <Button variant="outline-success">Success</Button>{" "}
-      <Button variant="outline-warning">Warning</Button>{" "}
-      <Button variant="outline-danger">Danger</Button>{" "}
-      <Button variant="outline-info">Info</Button>{" "}
-      <Button variant="outline-light">Light</Button>{" "}
-      <Button variant="outline-dark">Dark</Button>
+      <Button variant="outline-primary">Primary Alt</Button>{" "}
+      <Button variant="outline-secondary">Secondary Alt</Button>{" "}
+      <Button variant="outline-success">Success Alt</Button>{" "}
+      <Button variant="outline-warning">Warning Alt</Button>{" "}
+      <Button variant="outline-danger">Danger Alt</Button>{" "}
+      <Button variant="outline-info">Info Alt</Button>{" "}
+      <Button variant="outline-light">Light Alt</Button>{" "}
+      <Button variant="outline-dark">Dark Alt</Button>
       <hr />
       <>
         <Button href="#">Link</Button> <Button type="submit">Button</Button>{" "}
