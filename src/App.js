@@ -1,15 +1,33 @@
 import React from "react";
 import "./styles.css";
-import { Card, Button, Container, Row, Col } from "react-bootstrap";
+import {
+  DropdownButton,
+  Dropdown,
+  Card,
+  Button,
+  Container,
+  Row,
+  Col
+} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "holderjs";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox 5</h1>
+      <h1>Hello CodeSandbox ver. 10</h1>
       <hr />
       <h2>Start editing to see some magic happen!</h2>
+      <hr />
+      <DropdownButton
+        id="dropdown-basic-button"
+        variant="secondary"
+        title="Action"
+      >
+        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      </DropdownButton>
       <hr />
       <Button variant="primary">Primary</Button>{" "}
       <Button variant="secondary">Secondary</Button>{" "}
