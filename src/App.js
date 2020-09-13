@@ -7,7 +7,7 @@ import "holderjs";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox 4</h1>
+      <h1>Hello CodeSandbox 5</h1>
       <hr />
       <h2>Start editing to see some magic happen!</h2>
       <hr />
@@ -54,11 +54,11 @@ export default function App() {
         </Row>
       </Container>
       <hr />
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
+      <Card style={{ width: "20rem" }}>
+        <Card.Img variant="bottom" src="holder.js/100px100" />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
+          <Card.Title className="Libby">Card Title</Card.Title>
+          <Card.Text className="Card">
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>

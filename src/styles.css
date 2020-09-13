@@ -1,8 +1,8 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  background-color: lightgrey;
-  border-width: 10px;
+  background-color: greenyellow;
+  border-width: 20px;
 }
 .table {
   background-color: blue;
@@ -16,4 +16,11 @@
 }
 .Sehaj {
   background-color: lightcoral;
+}
+.Libby {
+  background-color: orangered;
+}
+.Card {
+  background-color: khaki;
+  margin: 10px;
 }
