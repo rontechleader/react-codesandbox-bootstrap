@@ -1,4 +1,12 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: lightgrey;
+  border-width: 10px;
+}
+.table {
+  background-color: blue;
+}
+.Row {
+  background-color: aqua;
 }

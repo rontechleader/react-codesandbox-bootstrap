@@ -1,12 +1,12 @@
 import React from "react";
 import "./styles.css";
-import { Button } from "react-bootstrap";
+import { Button, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox 3</h1>
+      <h1>Hello CodeSandbox 4</h1>
       <hr />
       <h2>Start editing to see some magic happen!</h2>
       <hr />
@@ -34,6 +34,20 @@ export default function App() {
         <Button as="input" type="submit" value="Submit" />{" "}
         <Button as="input" type="reset" value="Reset" />
       </>
+      <hr />
+      <Container>
+        <Row variant="primary">
+          <Col>1 of 1</Col>
+        </Row>
+      </Container>
+      <hr />
+      <Container>
+        <Row className="Row">
+          <Col xs>First, but unordered</Col>
+          <Col xs={{ order: 12 }}>Second, but last</Col>
+          <Col xs={{ order: 1 }}>Third, but second</Col>
+        </Row>
+      </Container>
       <hr />
     </div>
   );
