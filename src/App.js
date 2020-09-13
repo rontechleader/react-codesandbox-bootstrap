@@ -1,7 +1,8 @@
 import React from "react";
 import "./styles.css";
-import { Button, Container, Row, Col } from "react-bootstrap";
+import { Card, Button, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "holderjs";
 
 export default function App() {
   return (
@@ -44,11 +45,26 @@ export default function App() {
       <Container>
         <Row className="Row">
           <Col xs>First, but unordered</Col>
-          <Col xs={{ order: 12 }}>Second, but last</Col>
-          <Col xs={{ order: 1 }}>Third, but second</Col>
+          <Col className="Sehaj" xs={{ order: 12 }}>
+            Second, but last
+          </Col>
+          <Col className="Ron" xs={{ order: 1 }}>
+            Third, but second
+          </Col>
         </Row>
       </Container>
       <hr />
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+          <Card.Title>Card Title</Card.Title>
+          <Card.Text>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </Card.Text>
+          <Button variant="primary">Go somewhere</Button>
+        </Card.Body>
+      </Card>
     </div>
   );
 }
