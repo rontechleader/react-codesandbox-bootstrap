@@ -15,7 +15,7 @@ import "holderjs";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox ver. 10</h1>
+      <h1>Hello Contentstack ver. 11</h1>
       <hr />
       <h2>Start editing to see some magic happen!</h2>
       <hr />
